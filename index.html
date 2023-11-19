@@ -1,0 +1,41 @@
+<html>
+<head>
+
+	<title>Detecção de Objetos Em Imagens</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1 class="btn btn-info heading">DETECÇÃO DE OBJETOS EM IMAGENS</h1>
+    
+    <h3 id="status" class="btn btn-danger"></h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="btn btn-danger" id="copos" onclick="copos()">Copos</button>
+    <br>
+    <br>
+    <button class="btn btn-danger" id="pessoas" onclick="pessoas()">Pessoas</button>
+    <br>
+    <br>
+    <button class="btn btn-danger" id="mesa" onclick="mesa()">Mesa</button>
+    <br>
+    <br>
+    <button class="btn btn-danger" id="celulares" onclick="Celulares()">Celulares</button>
+    <br>
+    <br>
+    <button class="btn btn-danger" id="cesta" onclick="Cesta()">Cesta de frutas</button>
+  <script src="main.js"></script>
+
+</body>
+</html>
